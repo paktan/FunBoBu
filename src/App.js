@@ -1,40 +1,46 @@
-import React, {Component} from  'react';
 import './App.css';
-import Good from './Good';
+import React, {Component} from  'react';
+import Good from './Good'
 
 class App extends Component {
-
   state = {
-    name: "good"
+    source: null
+  }
+  handleChange = (e)=>{
+    let file = e.target.files[0];
+    let fileReader = new FileReader();
+    fileReader.onload = () => {
+      // const json = JSON.parse(JSON.stringify(fileReader.result))
+      const read = JSON.parse(JSON.stringify(fileReader.result))
+      console.log(read.Workbook)
+      this.setState({
+        source: read
+      })
+    };
+    fileReader.readAsText(file);
   }
 
-  _callGoods = async () => {
-    try {
-      const patato = await fetch('.asset/위탁재고_190711.xlsx');
-      const json = await patato.json();
-      console.log(json)
-      return json;
-    }
-    catch (err) {
-      return console.log(err);
-    }
+  _renderGoods = () => {
+    console.log(this.state.source)
+    // const goods = this.state.source.map((good, index) => {
+    //   console.log(good)
+    //   return <Good key={index}/>
+    // });
+    // return goods
   }
-
-  componentDidMount(){
-  }
-
   render() {
     return (
       <div className="App">
         <header className="header">
         <img src="https://shop-phinf.pstatic.net/20190702_17/ncp_1nq2uj_01_1562054355047mnXo4_JPEG/50108458439258749_-647527624.jpg" className="App-logo" alt="logo" />
         </header>
-        <h1><Good name={this.state.name}/></h1>
+        <div>
+          <input type="file" onChange={this.handleChange.bind(this)} />
+        </div>
+        {this._renderGoods() }
+        <Good code="" image="" brand="" goodCode="" uniqueness="" size="" totalCount="" cost="" lowCost="" tcgCost="" key=""/>
       </div>
     );
   }
 }
-
-
-
 export default App;
