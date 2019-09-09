@@ -1,0 +1,116 @@
+{
+ "statusCode": "normal",
+ "statusMessage": "",
+ "itemCount": 1,
+ "currentPage": 1,
+ "totalCount": 1,
+ "clipApiItems": [{
+  "site": "네이버TV",
+  "title": "동물 세계신기록 | 동물동요 | 주니토니 by 키즈캐슬",
+  "fileUrl": "https://tv.naver.com/v/9588669",
+  "destinationUrl": "https://tv.naver.com/v/9588669",
+  "videoId": "ACB39F9751A45D1C417E0E798E7B382BB0E8",
+  "clipNo": 9588669,
+  "playTime": 77,
+  "format": "mp4",
+  "quality": 6766,
+  "fileSize": 65938268,
+  "width": 3840,
+  "height": 2160,
+  "rate": "전체 관람가",
+  "description": "재미있는 노래와 이야기를\r\n주니&토니 동요동화TV에서 감상해 보세요.\r\n\r\n◆ 구독은 필수인 거 아시죠?^^\r\n◆영상을 공유하고 가족이나 친구들과 함께 감상하세요.\r\n◆케이블TV, IPTV 의 VOD 서비스로도 이용이 가능해요.\r\n◆주니&토니의 동요를 온라인 음원 사이트에서도 감상하세요.\r\n▷ 멜론 : http://www.melon.com/artist/timeline.htm?artistId=720223\r\n▷ 지니 : http://www.genie.co.kr/detail/artistInfo?xxnm=80213992\r\n▷ 올레 : http://www.ollehmusic.com/#/ArtistDetail/f_Artist_info.asp?artist_id=80213992\r\n▷ 네이버 : http://music.naver.com/artist/home.nhn?artistId=273065\r\n▷ 엠넷 : http://www.mnet.com/artist/269276\r\n▷ 벅스 : http://music.bugs.co.kr/artist/80183749?wl_ref=list_ar_02\r\n▷ 소리바다 : http://www.soribada.com/music/artist/AK063531\r\n\r\n▶가사\r\n\r\n“오늘은 최고의 매력을 가진\r\n동물 친구들을 만나보겠습니다.” \r\n“제일 먼저, 스컹크!” \r\n\r\n나는 나는 스컹크 \r\n방귀쟁이 스컹크 \r\n고약한 냄새로 나를 지키지 \r\n“뿡뿡, 명중이다!”\r\n독가스는 내가 최고\r\n\r\n나는 나는 타조  \r\n큰 눈이 예쁜 타조\r\n멀리 있어도 다 볼 수 있지 \r\n“오, 나한테 윙크했어?” \r\n눈 시력은 내가 최고\r\n \r\n“자, 아주 아주 매력적인  \r\n또 다른 참가자, 치타!”\r\n\r\n나는 나는 치타\r\n날쌘돌이 치타\r\n육지에선 내가 가장 빠르지 \r\n“따라올 테면 따라와 봐.”\r\n달리기는 내가 최고 \r\n\r\n나는 나는 대왕고래\r\n바다의 왕 대왕고래 \r\n지구에서 몸집이 가장 크지\r\n“하지만 해치지 않아.”\r\n몸 덩치는 내가 최고\r\n\r\n“여러분은 어떤 매력을 \r\n가졌나요호홍?”\r\n\r\n\r\nCopyright © 2019 KizCastle. All Rights Reserved.",
+  "provider": "네이버TV",
+  "providerUrl": "https://tv.naver.com",
+  "produceDate": "20190822140029",
+  "registerDate": "20190821113400",
+  "exposureDate": "20190822140029",
+  "categoryCode": "ARTIS",
+  "channelId": "kizcastle",
+  "displayChannelId": "kizcastle",
+  "channelName": "주니토니 동요동화 by 키즈캐슬",
+  "channelEmblem": "",
+  "globalServiceYn": "Y",
+  "playCount": 18,
+  "scrapCount": 0,
+  "sharable": false,
+  "recommendPoint": 0,
+  "videoBitrate": 6574,
+  "audioBitrate": 192,
+  "adultVideoYn": "N",
+  "extraData": {
+   "thumbUrl": "https://phinf.pstatic.net/tvcast/20190821_227/Oyeqc_15663553633207LRuz_JPEG/1566355359618.jpg",
+   "thumbWidth": 120,
+   "thumbHeight": 90,
+   "thumbnails": [],
+   "actor": "",
+   "keyword": "동화뮤지컬;동요;율동;어린이;유치원;인기동요;동화;동물동요;동물송;동물신기록;동물친구들",
+   "programId": "",
+   "programName": "",
+   "cornerName": "",
+   "episode": "",
+   "directPlayUrl": "https://tv.naver.com/v/9588669",
+   "mobileDirectUrl": "",
+   "mobileDestinationUrl": "https://m.tv.naver.com/v/9588669",
+   "gdid": "88186926_000009588669",
+   "broadcastChannel": null,
+   "channelUrl": "https://tv.naver.com/kizcastle",
+   "mobileChannelUrl": "https://m.tv.naver.com/kizcastle",
+   "televiseEpisode": 0,
+   "televiseDate": ""
+  },
+  "multitrackYn": false,
+  "clipTagList": null,
+  "searchKeywordItems": [{
+   "keyword": "동화뮤지컬",
+   "mobileUrl": "https://m.tv.naver.com/search/clip?query=동화뮤지컬&isTag=true"
+  },
+  {
+   "keyword": "동요",
+   "mobileUrl": "https://m.tv.naver.com/search/clip?query=동요&isTag=true"
+  },
+  {
+   "keyword": "율동",
+   "mobileUrl": "https://m.tv.naver.com/search/clip?query=율동&isTag=true"
+  },
+  {
+   "keyword": "어린이",
+   "mobileUrl": "https://m.tv.naver.com/search/clip?query=어린이&isTag=true"
+  },
+  {
+   "keyword": "유치원",
+   "mobileUrl": "https://m.tv.naver.com/search/clip?query=유치원&isTag=true"
+  },
+  {
+   "keyword": "인기동요",
+   "mobileUrl": "https://m.tv.naver.com/search/clip?query=인기동요&isTag=true"
+  },
+  {
+   "keyword": "동화",
+   "mobileUrl": "https://m.tv.naver.com/search/clip?query=동화&isTag=true"
+  },
+  {
+   "keyword": "동물동요",
+   "mobileUrl": "https://m.tv.naver.com/search/clip?query=동물동요&isTag=true"
+  },
+  {
+   "keyword": "동물송",
+   "mobileUrl": "https://m.tv.naver.com/search/clip?query=동물송&isTag=true"
+  },
+  {
+   "keyword": "동물신기록",
+   "mobileUrl": "https://m.tv.naver.com/search/clip?query=동물신기록&isTag=true"
+  },
+  {
+   "keyword": "동물친구들",
+   "mobileUrl": "https://m.tv.naver.com/search/clip?query=동물친구들&isTag=true"
+  }],
+  "commentObjectId": "9588669",
+  "likeItContentsId": "9588669",
+  "smrYn": "N",
+  "containedPlaylistNos": [294222, 312899],
+  "restorableYn": "Y",
+  "globalOpenYn": "Y",
+  "searchableYn": "Y",
+  "updateDate": "20190822140029"
+ }]
+}

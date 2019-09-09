@@ -9,19 +9,45 @@ class App extends Component {
   handleChange = (e)=>{
     let file = e.target.files[0];
     let fileReader = new FileReader();
-    fileReader.onload = () => {
-      // const json = JSON.parse(JSON.stringify(fileReader.result))
-      const read = JSON.parse(JSON.stringify(fileReader.result))
-      console.log(read.Workbook)
-      this.setState({
-        source: read
-      })
-    };
+    // fileReader.onload = () => {
+    //   // const read = JSON.parse(JSON.stringify(fileReader.result))
+    //   // // const read = JSON.parse(fileReader.result)
+    //   // console.log(read)
+    //   // this.setState({
+    //   //   source: read
+    //   // })
+    //   this.test(fileReader.result);
+    // };
+    fileReader.onload = (function (theFile) {
+      return function (e) {
+       console.log('e readAsText = ', e);
+       console.log('e readAsText target = ', e.target);
+       console.log("jyp")
+       try {
+        let json = JSON.parse(e.target.result)
+        // alert('json global var has been set to parsed json of this file here it is unevaled = \n' + JSON.stringify(json));
+        console.log(json.Workbook.OfficeDocumentSettings);
+       } catch (ex) {
+        alert('err json = ' + ex);
+       }
+      }
+     })(file);
     fileReader.readAsText(file);
   }
 
+  // test = (text) => {
+  //   console.log(text);
+  //   console.log(typeof text === 'string')
+  //   const read = JSON.parse(text);
+  //   console.log(read);
+  //   this.setState({
+  //     source: read
+  //   });
+  // }
+
   _renderGoods = () => {
-    console.log(this.state.source)
+    // console.log(this.state.source)
+    console.log(this.state.source ? this.state.source.Workbook : "jyp")
     // const goods = this.state.source.map((good, index) => {
     //   console.log(good)
     //   return <Good key={index}/>
